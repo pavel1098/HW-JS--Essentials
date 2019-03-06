@@ -1,6 +1,6 @@
 
 /**
- * Function that does currency 
+ * 1.Function that does currency 
  * converter from USD to UAH (1 USD = 8 UAH).
  */
 
@@ -14,7 +14,7 @@ convert(100); //800 UAH
 
 
 /**
- * A function which returns reversed string.
+ * 2.A function which returns reversed string.
  */
 function reverse(str) {
 	let newString = '';
@@ -31,7 +31,7 @@ reverse('abc'); // 'cba'
 
 
 /**
- * A function which prints the stair picture of size n
+ * 3.A function which prints the stair picture of size n
  */
 
 function printStairs(n) {
@@ -52,7 +52,7 @@ printStairs(3);
 
 
 /**
- * A function which returns total sum of a range
+ * 4.A function which returns total sum of a range
  */
 
 function totalSum(start, end) {
@@ -69,7 +69,7 @@ totalSum(-1,3);
 
 
 /**
- * Write a function which returns the smallest of three numbers.
+ * 5.Write a function which returns the smallest of three numbers.
  */
 function min(a, b, c) {
 	if(a < b && a < c)
@@ -84,7 +84,7 @@ min(10, 16, 11);
 
 
 /**
- * A function which prints the pyramid picture of size n
+ * 6.A function which prints the pyramid picture of size n
  */
 function printPyramid(n) {
 	
@@ -108,7 +108,7 @@ printPyramid(3);
 
 
 /**
- * A function which transforms 
+ * 7.A function which transforms 
  * first and last letter to uppercase 
  * (use built in string’s method).
  */
@@ -125,7 +125,7 @@ firstAndLastToUpper('abcd');
 
 
 /**
- * A function which returns true if string 
+ * 8.A function which returns true if string 
  * contains 'ironman' or 'cursor' or 'ostap' 
  * otherwise returns false. 
  * The function must be case-insensitive.
@@ -151,7 +151,7 @@ cursorCheck('Superman is here'); //false
 
 
 /**
- * A function which returns a string with all letters 
+ * 9.A function which returns a string with all letters 
  * in uppercase (without built in string’s method). 
  * The function supports only english alphabet.
  */
@@ -168,7 +168,7 @@ toUppercase('adc');
 
 
 /**
- * A function which removes duplication of letters in string. 
+ * 10.A function which removes duplication of letters in string. 
  * The function must be case-insensitive.
  */
 
@@ -191,7 +191,7 @@ removeDuplicationLetters('Hello I am iron Man'); //helo i am rn
 
 
 /**
- * A function that when given a number n 
+ * 11.A function that when given a number n 
  * returns the n-th number in the Fibonacci Sequence. 
  * The sequence starts from 1 and looks like this: 1, 1, 2, 3, 5, 8, 13, 21…
  */
