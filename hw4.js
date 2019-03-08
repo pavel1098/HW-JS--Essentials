@@ -6,10 +6,10 @@
 
 function convert(amount) {
 	let uah = amount * 8;
-	return console.log(uah + ' UAH');
+	return uah + ' UAH';
 }
 
-convert(100); //800 UAH
+console.log(convert(100)); //800 UAH
 
 
 
@@ -23,10 +23,10 @@ function reverse(str) {
 		newString += str[i];
 	}
 
-	return console.log(newString);
+	return newString;
 }
 
-reverse('abc'); // 'cba'
+console.log(reverse('abc')); // 'cba'
 
 
 
@@ -43,10 +43,10 @@ function printStairs(n) {
 		str += '\n';
 	}
 
-	return console.log(str);
+	return str;
 }
 
-printStairs(3);
+console.log(printStairs(3));
 
 
 
@@ -61,10 +61,10 @@ function totalSum(start, end) {
 		sum += i;
 	}
 
-	return console.log(sum);
+	return sum;
 }
 
-totalSum(-1,3);
+console.log(totalSum(-1,3));
 
 
 
@@ -73,13 +73,13 @@ totalSum(-1,3);
  */
 function min(a, b, c) {
 	if(a < b && a < c)
-		console.log(a + '-min');
+		return a + '-min';
 	if(b < a && b < c)
-		console.log(b + '-min');
+		return b + '-min';
 	if(c < a && c < b)
-		console.log(c + '-min');
+		return c + '-min';
 }
-min(10, 16, 11);
+console.log(min(10, 16, 11));
 
 
 
@@ -97,12 +97,12 @@ function printPyramid(n) {
 			str += '#';
 		}
 		str += '\n';
-		console.log(str);	
+		return str;	
 	}
 	
 }
 
-printPyramid(3);
+console.log(printPyramid(3));
 
 
 
@@ -115,11 +115,11 @@ printPyramid(3);
 function firstAndLastToUpper(str) {
 	let newStr = str.charAt(0).toUpperCase() + str.substring(1,str.length-1) + str.charAt(str.length-1).toUpperCase();
 
-	return console.log(newStr); 
+	return newStr; 
 }
 
 
-firstAndLastToUpper('abcd');
+console.log(firstAndLastToUpper('abcd'));
 
 
 
@@ -139,12 +139,12 @@ function cursorCheck(str) {
 			return console.log(true);
 		}
 	}
-	return console.log(false);
+	return false;
 
 }
 
-cursorCheck("Hello I am OstaP IRONMAN"); //true
-cursorCheck('Superman is here'); //false
+console.log(cursorCheck("Hello I am OstaP IRONMAN")); //true
+console.log(cursorCheck('Superman is here')); //false
 
 
 
@@ -161,10 +161,10 @@ function toUppercase(str) {
   for(i = 0; i < str.length; i++) {
     newStr += String.fromCharCode(str.charCodeAt(i) - 32);
   }
-  return console.log(newStr);
+  return newStr;
 }
 
-toUppercase('adc');
+console.log(toUppercase('adc'));
 
 
 /**
@@ -182,10 +182,10 @@ function removeDuplicationLetters(str) {
 
 		
 	}
-	return console.log(newStr);
+	return newStr;
 }
 
-removeDuplicationLetters('Hello I am iron Man'); //helo i am rn 
+console.log(removeDuplicationLetters('Hello I am iron Man')); //helo i am rn 
 
 
 
